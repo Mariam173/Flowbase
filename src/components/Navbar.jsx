@@ -1,0 +1,37 @@
+import React from 'react';
+
+const Navbar = () => {
+  return (
+    <nav className="flex justify-between items-center pt-5 px-36">
+      <img
+        src="Desktop Images/svg image/Logo RealEstate.svg"
+        alt="flowbase Logo"
+        className="h-6"
+      />
+      <ul className="flex flex items-center gap-8 text-white font-bold">
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Our works</a></li> 
+        <li><a href="#">Products</a></li>
+        
+        <li>
+          <a 
+            href="#" 
+            className="flex items-center bg-yellow-500 hover:bg-orange-600 text-white font-medium py-2 px-4 rounded-tr-lg"
+          >
+            Work with us
+            <img
+              src="Desktop Images/svg image/Arrow White.svg"
+              alt="Arrow"
+              className="ml-2 w-4 h-4"
+            />
+          </a>
+        </li>
+      </ul>
+    </nav>
+  );
+};
+
+export default Navbar;
+
+
